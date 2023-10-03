@@ -5,7 +5,7 @@
              "appIDs": [ "6445867050.com.app.mywellbeing" ],
              "components": [
                {
-                  "#": "no_universal_links",
+                  "#": "*",
                   "comment": "Matches any URL with a fragment that equals no_universal_links and instructs the system not to open it as a universal link."
                },
                {
