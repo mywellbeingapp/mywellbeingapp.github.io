@@ -9,8 +9,8 @@
                   "comment": "Matches any URL with a fragment that equals no_universal_links and instructs the system not to open it as a universal link."
                },
                {
-                  "/": "/journal/*",
-                  "comment": "Matches any URL with a path that starts with /journal/."
+                  "/": "/*",
+                  "comment": "Matches any URL with a path that starts with /."
                },
                {
                   "/": "/affirmation/*",
