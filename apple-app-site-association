@@ -1,0 +1,43 @@
+{
+  "applinks": {
+      "details": [
+           {
+             "appIDs": [ "6445867050.com.app.mywellbeing" ],
+             "components": [
+               {
+                  "#": "no_universal_links",
+                  "exclude": true,
+                  "comment": "Matches any URL with a fragment that equals no_universal_links and instructs the system not to open it as a universal link."
+               },
+               {
+                  "/": "/journal/*",
+                  "comment": "Matches any URL with a path that starts with /journal/."
+               },
+               {
+                  "/": "/affirmation/*",
+                  "comment": "Matches any URL with a path that starts with /affirmation/."
+               },
+               {
+                  "/": "/visionboard/*",
+                  "comment": "Matches any URL with a path that starts with /visionboard/."
+               },
+               {
+                  "/": "/breathing/*",
+                  "comment": "Matches any URL with a path that starts with /breathing/."
+               },
+               {
+                  "/": "/puzzlewords/*",
+                  "comment": "Matches any URL with a path that starts with /puzzlewords/."
+               },
+               {
+                  "/": "/app/*",
+                  "comment": "Matches any URL with a path that starts with /app/."
+               }
+             ]
+           }
+       ]
+   },
+   "webcredentials": {
+      "apps": [ "6445867050.com.app.mywellbeing" ]
+   }
+}
