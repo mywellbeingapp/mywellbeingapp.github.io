@@ -1,0 +1,21 @@
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+
+User-agent: *
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /junk/
+
+# Allow all AMP and canonical pages to be crawled
+Allow: /blog/
+Allow: /*/amp/
+Allow: /*.amp.html
+
+# Ensure Googlebot can crawl AMP and canonical pages
+User-agent: Googlebot
+Allow: /
+
+# Specify sitemaps
+Sitemap: https://mywellbeing.me/sitemap.xml
+Sitemap: https://mywellbeing.me/blog/sitemap_index.xml
