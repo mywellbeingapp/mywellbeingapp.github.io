@@ -2,7 +2,6 @@ User-agent: *
 Disallow: /wp-admin/
 Allow: /wp-admin/admin-ajax.php
 
-User-agent: *
 Disallow: /cgi-bin/
 Disallow: /tmp/
 Disallow: /junk/
@@ -11,6 +10,7 @@ Disallow: /junk/
 Allow: /blog/
 Allow: /*/amp/
 Allow: /*.amp.html
+Allow: /blog/wp-json
 
 # Ensure Googlebot can crawl AMP and canonical pages
 User-agent: Googlebot
